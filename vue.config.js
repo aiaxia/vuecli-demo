@@ -1,19 +1,29 @@
-const path = require('path');
-function resolve (dir) {
-    return path.join(__dirname, dir)
-}
-module.exports = {
-    lintOnSave: true,
-    devServer: {
-      port: 1001
-    },
-    chainWebpack: (config)=>{
-        config.resolve.alias
-            .set('@$', resolve('src'))
-            .set('assets',resolve('src/assets'))
-            .set('components',resolve('src/components'))
-            .set('layout',resolve('src/layout'))
-            .set('base',resolve('src/base'))
-            .set('static',resolve('src/static'))
-    }
-}
+// const path = require('path');
+
+// function resolve(dir) {
+//     return path.join(__dirname, dir)
+// }
+// module.exports = {
+//     configureWebpack: {
+//         lintOnSave: true,
+//         devServer: {
+//             port: 1001
+//         },
+//         chainWebpack: (config) => {
+//             config.resolve.alias
+//                 .set('@$', resolve('src'))
+//                 .set('assets', resolve('src/assets'))
+//                 .set('components', resolve('src/components'))
+//                 .set('layout', resolve('src/layout'))
+//                 .set('base', resolve('src/base'))
+//                 .set('static', resolve('src/static'))
+//         }
+//     }
+// }
+// module.exports = {
+//     configureWebpack: {
+//       plugins: [
+//         new MyAwesomeWebpackPlugin()
+//       ]
+//     }
+// }

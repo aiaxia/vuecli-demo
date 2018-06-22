@@ -1,6 +1,6 @@
 {
   "name": "vuecli-demo",
-  "version": "0.1.0",
+  "version": "1.0.1",
   "private": true,
   "scripts": {
     "start": "vue-cli-service serve",
@@ -17,6 +17,7 @@
     "@vue/cli-plugin-babel": "^3.0.0-beta.15",
     "@vue/cli-plugin-eslint": "^3.0.0-beta.15",
     "@vue/cli-service": "^3.0.0-beta.15",
+    "open-browser-webpack-plugin": "0.0.5",
     "vue-template-compiler": "^2.5.16",
     "webpack-chain": "^4.8.0"
   },

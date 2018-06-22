@@ -1,29 +1,14 @@
-// const path = require('path');
+// var OpenBrowserPlugin = require('open-browser-webpack-plugin');
 
-// function resolve(dir) {
-//     return path.join(__dirname, dir)
-// }
-// module.exports = {
-//     configureWebpack: {
-//         lintOnSave: true,
-//         devServer: {
-//             port: 1001
-//         },
-//         chainWebpack: (config) => {
-//             config.resolve.alias
-//                 .set('@$', resolve('src'))
-//                 .set('assets', resolve('src/assets'))
-//                 .set('components', resolve('src/components'))
-//                 .set('layout', resolve('src/layout'))
-//                 .set('base', resolve('src/base'))
-//                 .set('static', resolve('src/static'))
-//         }
-//     }
-// }
-// module.exports = {
-//     configureWebpack: {
-//       plugins: [
-//         new MyAwesomeWebpackPlugin()
-//       ]
-//     }
-// }
+  
+module.exports = {
+    lintOnSave: false,
+    // configureWebpack: {
+    //     plugins: [
+    //         new OpenBrowserPlugin({ url: 'http://localhost:2001' })
+    //     ],
+    // },
+    devServer: {
+        port: 2001
+    }
+}

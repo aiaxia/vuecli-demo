@@ -19,7 +19,9 @@
     "@vue/cli-service": "^3.0.0-beta.15",
     "open-browser-webpack-plugin": "0.0.5",
     "vue-template-compiler": "^2.5.16",
-    "webpack-chain": "^4.8.0"
+    "webpack": "^4.12.1",
+    "webpack-chain": "^4.8.0",
+    "webpack-hot-middleware": "^2.22.2"
   },
   "eslintConfig": {
     "root": true,

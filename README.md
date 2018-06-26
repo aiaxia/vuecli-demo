@@ -3,6 +3,10 @@
     yarn global add @vue/cli （要先安装yarn）
  
     vue create vuecli-demo(项目名称)
+    
+技术栈
+    babel,typescript,router,vuex(redux),css pre-processors,linter/formatter/unit testing
+
 
 ## 创建项目步骤
 如果项目没有内容：
